@@ -1,0 +1,107 @@
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col">
+      <form id="geneSelectorForm" action="/" method="GET">
+        <div class="form-group">
+          <label for="geneName">Gene Name:</label>
+          <input type="text" class="form-control" name="name" id="geneName" list="geneList" aria-describedby="geneHelp" 
+            placeholder='$(selected == "" ? "e.g. MAPK8" : selected)'
+            value='$(selected == "" ? "" : selected)'>
+          <small id="geneHelp" class="form-text text-muted">Write the name of a human gene from the benchmark set.</small>
+          <datalist id="geneList">
+            <% @foreach(keys(results)) do gene %>
+              <option value=$gene></option>
+            <% end %>
+          </datalist>
+        </div>
+        <button type="submit" class="btn btn-primary">Show results</button>
+      </form>
+    </div>
+    <div class="col"></div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h1 id="geneTitle"></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!-- splice graph : start -->
+      <div class="card card-primary" id="spliceGraphPanel">
+        <div class="card-header">Splice graph</div>
+        <div class="card-body">
+          <div id="cy-container">
+            <div id="cy"></div>
+          </div>
+        </div>
+      </div>
+      <!-- splice graph : end -->
+    </div>
+  </div>
+  <!-- msa : end -->
+  <div class="row" id="msaPanel">
+    <div class="col">
+      <div class="card card-primary" >
+        <div class="card-header">S-exon MSA</div>
+        <div class="card-body">
+          <div id="msaTitle"></div>
+          <div id="msaContainer" class="msa-container">
+            <div id="msa"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- msa : end -->
+  <div class="row">
+    <div class="col">
+      <!-- s_exon_table : end -->
+      <div class="card card-primary" id="sExonPanel">
+        <div class="card-header">S-exons</div>
+        <div class="card-body">
+          <div class='table-container' id="sExonTableContainer">
+          </div>
+        </div>
+      </div>
+      <!-- s_exon_table : end -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!-- ases_table : end -->
+      <div class="card card-primary" id="asesPanel">
+        <div class="card-header">Alternative splicing events</div>
+        <div class="card-body">
+          <div class='table-container' id="asesTableContainer" class=".wrapper">
+            <table class="table" id="asesTable"></table>
+          </div>
+        </div>
+      </div>
+      <!-- ases_table : end -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!-- rnaseq : start -->
+      <div class="card card-primary" id="rnaseqPanel">
+        <div class="card-header">RNA-Seq data for alternative splicing events</div>
+        <div class="card-body">
+          <div id="rnaseqPlots">
+          </div>
+        </div>
+      </div>
+      <!-- rnaseq : end -->
+    </div>
+  </div>
+</div>
+
+<img src="img/loading.gif" id="loadingImage">
+
+<% if selected != "" %>
+<script>
+  jQuery(document).ready(function(){
+    geneData.value = $(data);
+  });
+</script>
+<% end %>

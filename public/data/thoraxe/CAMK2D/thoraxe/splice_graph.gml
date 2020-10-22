@@ -1,0 +1,1090 @@
+
+        graph [
+            directed 1
+            id 42
+            label "splice graph of s-exons"
+        
+                node [
+                    id 1
+                    label "start"
+                    transcript_fraction 100.0
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                node [
+                    id 2
+                    label "15_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "%"
+                    consensus "MASTTTCTRFTDEYQLFEELGK"
+                ]
+            
+                node [
+                    id 3
+                    label "9_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "("
+                    consensus "KGAFSVVRRCMKIPTGQEYAAKIINTKKLSARD"
+                ]
+            
+                node [
+                    id 4
+                    label "17_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs ")"
+                    consensus "DHQKLEREARICRLLKHPNIV"
+                ]
+            
+                node [
+                    id 5
+                    label "18_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "+"
+                    consensus "VRLHDSISEEGFHYLVFDL"
+                ]
+            
+                node [
+                    id 6
+                    label "14_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "0"
+                    consensus "LVTGGELFEDIVAREYYSEADAS"
+                ]
+            
+                node [
+                    id 7
+                    label "11_0"
+                    transcript_fraction 68.18181818181817
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSGGOT00000026985,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000074642,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738"
+                    phylosofs "1"
+                    consensus "SHCIQQILESVNHCHLNGIVHRDLK"
+                ]
+            
+                node [
+                    id 8
+                    label "5_0"
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "2"
+                    consensus "PENLLLASKSKGAAVKLADFGLAIEVQGDQQAWFG"
+                ]
+            
+                node [
+                    id 9
+                    label "10_0"
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "3"
+                    consensus "GFAGTPGYLSPEVLRKDPYGKPVDMWACG"
+                ]
+            
+                node [
+                    id 10
+                    label "8_0"
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "4"
+                    consensus "GVI"
+                ]
+            
+                node [
+                    id 11
+                    label "8_1"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "5"
+                    consensus "LYILLVGYPPFWDEDQHRLYQQIKAGAYD"
+                ]
+            
+                node [
+                    id 12
+                    label "3_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "6"
+                    consensus "FPSPEWDTVTPEAKDLINKMLTINPAKRITASEALKHPWIC"
+                ]
+            
+                node [
+                    id 13
+                    label "6_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "7"
+                    consensus "QRSTVASMMHRQETVDCLKKFNARRKLK"
+                ]
+            
+                node [
+                    id 14
+                    label "20_0"
+                    transcript_fraction 86.36363636363636
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "8"
+                    consensus "GAILTTMLATRNFSA"
+                ]
+            
+                node [
+                    id 15
+                    label "22_1"
+                    transcript_fraction 86.36363636363636
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "9"
+                    consensus "AKSLLKKPDGVK"
+                ]
+            
+                node [
+                    id 16
+                    label "21_0"
+                    transcript_fraction 45.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000166198,ENSGGOT00000033104,ENSGGOT00000052903,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENST00000394522,ENST00000511664"
+                    phylosofs ":"
+                    consensus "EPQTTVIHNPtDGNK"
+                ]
+            
+                node [
+                    id 17
+                    label "4_1"
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "<"
+                    consensus "ESTESSNTTIEDEDVK"
+                ]
+            
+                node [
+                    id 18
+                    label "2_1"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "="
+                    consensus "ARKQEIIKVTEQLIEAINN"
+                ]
+            
+                node [
+                    id 19
+                    label "2_2"
+                    transcript_fraction 72.72727272727273
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000070379,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "?"
+                    consensus "GDFEAYT"
+                ]
+            
+                node [
+                    id 20
+                    label "7_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "A"
+                    consensus "TKICDPGLTAFEPEALGNLVEGMDFHRFYFENA"
+                ]
+            
+                node [
+                    id 21
+                    label "1_0"
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "B"
+                    consensus "xLSKSNKPIHTIILNPHVHLVGDDAACIAYIRLTQYMDGSGMPKTMQSEETRVWHRRDGKWQNVHFHRSGSPTVPI"
+                ]
+            
+                node [
+                    id 22
+                    label "1_1"
+                    transcript_fraction 81.81818181818183
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "C"
+                    consensus "K"
+                ]
+            
+                node [
+                    id 23
+                    label "stop"
+                    transcript_fraction 100.0
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                node [
+                    id 24
+                    label "11_1"
+                    transcript_fraction 27.27272727272727
+                    conservation 100.0
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000142259,ENSDART00000166198,ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                    phylosofs "D"
+                    consensus "SHCIQQILEAVLHCHQMGVVHRDLK"
+                ]
+            
+                node [
+                    id 25
+                    label "4_2"
+                    transcript_fraction 50.0
+                    conservation 75.0
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                    phylosofs "E"
+                    consensus "Amikse"
+                ]
+            
+                node [
+                    id 26
+                    label "0_1"
+                    transcript_fraction 13.636363636363635
+                    conservation 25.0
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000379773,ENST00000394522,ENST00000508738"
+                    phylosofs "F"
+                ]
+            
+                node [
+                    id 27
+                    label "0_2"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000394524"
+                    phylosofs "G"
+                ]
+            
+                node [
+                    id 28
+                    label "23_0"
+                    transcript_fraction 9.090909090909092
+                    conservation 50.0
+                    genes "ENSG00000145349,ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000058329,ENST00000508738"
+                    phylosofs "H"
+                    consensus "KRKSSSSVQMM"
+                ]
+            
+                node [
+                    id 29
+                    label "16_0"
+                    transcript_fraction 18.181818181818183
+                    conservation 75.0
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                    phylosofs "I"
+                    consensus "INNKANVVTSPKENIPTPAL"
+                ]
+            
+                node [
+                    id 30
+                    label "13_0"
+                    transcript_fraction 27.27272727272727
+                    conservation 75.0
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000078069,ENST00000511664"
+                    phylosofs "J"
+                    consensus "kPPCIPNGKENFSGGTSLWQNI"
+                ]
+            
+                node [
+                    id 31
+                    label "0_3"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052788"
+                    phylosofs "K"
+                ]
+            
+                node [
+                    id 32
+                    label "0_4"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052903"
+                    phylosofs "L"
+                ]
+            
+                node [
+                    id 33
+                    label "24_0"
+                    transcript_fraction 22.727272727272727
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069"
+                    phylosofs "M"
+                    consensus "DFEAY"
+                ]
+            
+                node [
+                    id 34
+                    label "22_0"
+                    transcript_fraction 18.181818181818183
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069"
+                    phylosofs "N"
+                    consensus "A"
+                ]
+            
+                node [
+                    id 35
+                    label "0_5"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835"
+                    phylosofs "O"
+                ]
+            
+                node [
+                    id 36
+                    label "6_1"
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379,ENSSSCT00000087473"
+                    phylosofs "P"
+                    consensus "VRN"
+                ]
+            
+                node [
+                    id 37
+                    label "6_2"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379"
+                    phylosofs "Q"
+                    consensus "VTF"
+                ]
+            
+                node [
+                    id 38
+                    label "2_0"
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379,ENSSSCT00000087473"
+                    phylosofs "R"
+                    consensus "SNILYDSYLLFSPYSFSSPL"
+                ]
+            
+                node [
+                    id 39
+                    label "4_0"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000087473"
+                    phylosofs "S"
+                    consensus "LLFATLKVFSSQQ"
+                ]
+            
+                node [
+                    id 40
+                    label "12_0"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                    phylosofs "T"
+                    consensus "SLHSADPGGCATLPSDGRSPSGPE"
+                ]
+            
+                node [
+                    id 41
+                    label "19_0"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                    phylosofs "U"
+                    consensus "VMNLMAVSSNSLKKS"
+                ]
+            
+                node [
+                    id 42
+                    label "0_6"
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                    phylosofs "V"
+                ]
+            
+                edge [
+                    source 1
+                    target 2
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.9375
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 2
+                    target 3
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.9375
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 3
+                    target 4
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.9375
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 4
+                    target 5
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.9375
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 5
+                    target 6
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.9375
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 6
+                    target 7
+                    transcript_fraction 68.18181818181817
+                    conservation 100.0
+                    transcript_weighted_conservation 0.65
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSGGOT00000026985,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000074642,ENSSSCT00000087473,ENSSSCT00000088894,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738"
+                ]
+            
+                edge [
+                    source 7
+                    target 8
+                    transcript_fraction 63.63636363636363
+                    conservation 100.0
+                    transcript_weighted_conservation 0.61875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSGGOT00000026985,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000074642,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738"
+                ]
+            
+                edge [
+                    source 8
+                    target 9
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    transcript_weighted_conservation 0.90625
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 9
+                    target 10
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    transcript_weighted_conservation 0.90625
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 10
+                    target 11
+                    transcript_fraction 90.9090909090909
+                    conservation 100.0
+                    transcript_weighted_conservation 0.90625
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 11
+                    target 12
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.96875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 12
+                    target 13
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.96875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 13
+                    target 14
+                    transcript_fraction 86.36363636363636
+                    conservation 100.0
+                    transcript_weighted_conservation 0.90625
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 14
+                    target 15
+                    transcript_fraction 68.18181818181817
+                    conservation 100.0
+                    transcript_weighted_conservation 0.78125
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 15
+                    target 16
+                    transcript_fraction 27.27272727272727
+                    conservation 100.0
+                    transcript_weighted_conservation 0.31875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000166198,ENSGGOT00000052903,ENSSSCT00000074642,ENST00000394522"
+                ]
+            
+                edge [
+                    source 16
+                    target 17
+                    transcript_fraction 45.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.48124999999999996
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000166198,ENSGGOT00000033104,ENSGGOT00000052903,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENST00000394522,ENST00000511664"
+                ]
+            
+                edge [
+                    source 17
+                    target 18
+                    transcript_fraction 31.818181818181817
+                    conservation 50.0
+                    transcript_weighted_conservation 0.34375
+                    genes "ENSDARG00000043010,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000074642"
+                ]
+            
+                edge [
+                    source 18
+                    target 19
+                    transcript_fraction 72.72727272727273
+                    conservation 100.0
+                    transcript_weighted_conservation 0.8125
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000070379,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 19
+                    target 20
+                    transcript_fraction 72.72727272727273
+                    conservation 100.0
+                    transcript_weighted_conservation 0.8125
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000070379,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 20
+                    target 21
+                    transcript_fraction 95.45454545454545
+                    conservation 100.0
+                    transcript_weighted_conservation 0.96875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 21
+                    target 22
+                    transcript_fraction 81.81818181818183
+                    conservation 100.0
+                    transcript_weighted_conservation 0.875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 22
+                    target 23
+                    transcript_fraction 36.36363636363637
+                    conservation 50.0
+                    transcript_weighted_conservation 0.375
+                    genes "ENSDARG00000043010,ENSSSCG00000009123"
+                    transcripts "ENSDART00000056466,ENSDART00000136175,ENSDART00000142259,ENSDART00000166198,ENSSSCT00000070379,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 1
+                    target 11
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSDARG00000043010"
+                    transcripts "ENSDART00000136175"
+                ]
+            
+                edge [
+                    source 6
+                    target 24
+                    transcript_fraction 27.27272727272727
+                    conservation 100.0
+                    transcript_weighted_conservation 0.2875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000142259,ENSDART00000166198,ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                ]
+            
+                edge [
+                    source 24
+                    target 8
+                    transcript_fraction 27.27272727272727
+                    conservation 100.0
+                    transcript_weighted_conservation 0.2875
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000142259,ENSDART00000166198,ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                ]
+            
+                edge [
+                    source 15
+                    target 17
+                    transcript_fraction 31.818181818181817
+                    conservation 100.0
+                    transcript_weighted_conservation 0.325
+                    genes "ENSDARG00000043010,ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSDART00000142259,ENSGGOT00000026985,ENSGGOT00000052788,ENSSSCT00000009990,ENSSSCT00000049835,ENST00000379773,ENST00000394524"
+                ]
+            
+                edge [
+                    source 17
+                    target 25
+                    transcript_fraction 50.0
+                    conservation 75.0
+                    transcript_weighted_conservation 0.53125
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENSSSCT00000087473,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 25
+                    target 18
+                    transcript_fraction 45.45454545454545
+                    conservation 50.0
+                    transcript_weighted_conservation 0.5
+                    genes "ENSG00000145349,ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000052788,ENSGGOT00000052903,ENSGGOT00000058329,ENST00000379773,ENST00000394522,ENST00000394524,ENST00000508738,ENST00000511664"
+                ]
+            
+                edge [
+                    source 22
+                    target 26
+                    transcript_fraction 13.636363636363635
+                    conservation 25.0
+                    transcript_weighted_conservation 0.15
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000379773,ENST00000394522,ENST00000508738"
+                ]
+            
+                edge [
+                    source 26
+                    target 23
+                    transcript_fraction 13.636363636363635
+                    conservation 25.0
+                    transcript_weighted_conservation 0.15
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000379773,ENST00000394522,ENST00000508738"
+                ]
+            
+                edge [
+                    source 22
+                    target 27
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000394524"
+                ]
+            
+                edge [
+                    source 27
+                    target 23
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSG00000145349"
+                    transcripts "ENST00000394524"
+                ]
+            
+                edge [
+                    source 15
+                    target 28
+                    transcript_fraction 9.090909090909092
+                    conservation 50.0
+                    transcript_weighted_conservation 0.1
+                    genes "ENSG00000145349,ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000058329,ENST00000508738"
+                ]
+            
+                edge [
+                    source 28
+                    target 17
+                    transcript_fraction 9.090909090909092
+                    conservation 50.0
+                    transcript_weighted_conservation 0.1
+                    genes "ENSG00000145349,ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000058329,ENST00000508738"
+                ]
+            
+                edge [
+                    source 15
+                    target 29
+                    transcript_fraction 18.181818181818183
+                    conservation 75.0
+                    transcript_weighted_conservation 0.1625
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                ]
+            
+                edge [
+                    source 29
+                    target 16
+                    transcript_fraction 18.181818181818183
+                    conservation 75.0
+                    transcript_weighted_conservation 0.1625
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000033104,ENSSSCT00000073383,ENSSSCT00000078069,ENST00000511664"
+                ]
+            
+                edge [
+                    source 22
+                    target 30
+                    transcript_fraction 18.181818181818183
+                    conservation 50.0
+                    transcript_weighted_conservation 0.2
+                    genes "ENSG00000145349,ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000058329,ENST00000511664"
+                ]
+            
+                edge [
+                    source 30
+                    target 23
+                    transcript_fraction 27.27272727272727
+                    conservation 75.0
+                    transcript_weighted_conservation 0.2625
+                    genes "ENSG00000145349,ENSGGOG00000022729,ENSSSCG00000009123"
+                    transcripts "ENSGGOT00000026985,ENSGGOT00000033104,ENSGGOT00000058329,ENSSSCT00000009990,ENSSSCT00000078069,ENST00000511664"
+                ]
+            
+                edge [
+                    source 22
+                    target 31
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052788"
+                ]
+            
+                edge [
+                    source 31
+                    target 23
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052788"
+                ]
+            
+                edge [
+                    source 22
+                    target 32
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052903"
+                ]
+            
+                edge [
+                    source 32
+                    target 23
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.05
+                    genes "ENSGGOG00000022729"
+                    transcripts "ENSGGOT00000052903"
+                ]
+            
+                edge [
+                    source 18
+                    target 33
+                    transcript_fraction 13.636363636363635
+                    conservation 25.0
+                    transcript_weighted_conservation 0.09375
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000074642"
+                ]
+            
+                edge [
+                    source 33
+                    target 20
+                    transcript_fraction 13.636363636363635
+                    conservation 25.0
+                    transcript_weighted_conservation 0.09375
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000009990,ENSSSCT00000049835,ENSSSCT00000074642"
+                ]
+            
+                edge [
+                    source 21
+                    target 30
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000009990,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 14
+                    target 34
+                    transcript_fraction 18.181818181818183
+                    conservation 25.0
+                    transcript_weighted_conservation 0.125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 34
+                    target 15
+                    transcript_fraction 18.181818181818183
+                    conservation 25.0
+                    transcript_weighted_conservation 0.125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835,ENSSSCT00000073383,ENSSSCT00000074642,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 21
+                    target 35
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835"
+                ]
+            
+                edge [
+                    source 35
+                    target 23
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000049835"
+                ]
+            
+                edge [
+                    source 13
+                    target 36
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379,ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 36
+                    target 37
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379"
+                ]
+            
+                edge [
+                    source 37
+                    target 38
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379"
+                ]
+            
+                edge [
+                    source 38
+                    target 18
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000070379,ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 17
+                    target 33
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000073383,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 33
+                    target 18
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000073383,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 18
+                    target 20
+                    transcript_fraction 9.090909090909092
+                    conservation 25.0
+                    transcript_weighted_conservation 0.0625
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000073383,ENSSSCT00000078069"
+                ]
+            
+                edge [
+                    source 36
+                    target 39
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 39
+                    target 17
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 25
+                    target 38
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000087473"
+                ]
+            
+                edge [
+                    source 7
+                    target 40
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                ]
+            
+                edge [
+                    source 40
+                    target 41
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                ]
+            
+                edge [
+                    source 41
+                    target 42
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                ]
+            
+                edge [
+                    source 42
+                    target 23
+                    transcript_fraction 4.545454545454546
+                    conservation 25.0
+                    transcript_weighted_conservation 0.03125
+                    genes "ENSSSCG00000009123"
+                    transcripts "ENSSSCT00000088894"
+                ]
+            
+        ]
+        
