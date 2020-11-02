@@ -175,9 +175,9 @@ jQuery(document).ready(function(){
           jQuery("#rnaseqPanel").show();
           for (plot in val.rnaseq_plots) {
             plot_path = val.rnaseq_plots[plot];
-            ase = plot_path.replace(".svg", "").split('_')[2]
-            jQuery("#rnaseqPlots").append('<h5>'+ rnaseq_plot_labels[ase] +'</h5><img src="' + plot_path + '">')
-          }
+            ase = plot_path.split("/")[4].replace(".svg", "").replace("barplot_event_", "").replace("can", "Can").replace("alt", "Alt").replace(";", " ").replace(/:/g, ": ").replaceAll(/-/g, "/");
+            jQuery("#rnaseqPlots").append('<h5>'+ ase +'</h5><img src="' + plot_path + '">');
+          };
         }
         // rnaseq : end
 

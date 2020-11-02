@@ -30,6 +30,7 @@ const THORAXE_RESULTS = get_thoraxe_results()
 
 function get_rnaseq_plots()
     paths = Glob.glob("*/*.svg", RNASEQ_PLOTS_PATH)
+    @show paths
     plots = OrderedDict{String, Vector{String}}()
     for path in paths
         folders = splitpath(path)
@@ -42,6 +43,7 @@ function get_rnaseq_plots()
             plots[genename] = String[path_to_data]
         end
     end
+    @show plots
     plots
 end
 
