@@ -19,8 +19,6 @@ From: julia:latest
 %environment
     export JULIA_DEPOT_PATH="/tmp/.julia"
     export GENIE_ENV="prod"
-    export HOST="127.0.0.1"
-    export PORT="8000"
 
 %runscript
     cd /app
