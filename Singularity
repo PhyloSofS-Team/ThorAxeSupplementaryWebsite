@@ -2,14 +2,14 @@ Bootstrap: docker
 From: julia:latest
 
 %files
-    . /app
+    . /genie-app
 
 %post
-    cd /app
-    chmod +x bin/repl
-    chmod +x bin/server
-    chmod +x bin/serverinteractive
-    chmod +x bin/runtask
+    cd /genie-app
+    chmod +rx bin/server
+    chmod +rx bin/repl
+    chmod +rx bin/serverinteractive
+    chmod +rx bin/runtask
     sed -i 's/log_to_file\s*=\s*true/log_to_file=false/g' config/env/prod.jl
     export JULIA_DEPOT_PATH="/tmp/.julia"
     julia --project -e 'using Pkg; Pkg.instantiate()'
@@ -21,5 +21,5 @@ From: julia:latest
     export GENIE_ENV="prod"
 
 %runscript
-    cd /app
+    cd /genie-app
     bin/server
