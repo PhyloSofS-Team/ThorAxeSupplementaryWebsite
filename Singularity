@@ -19,4 +19,4 @@ From: julia:latest
 %runscript
     cd /genie-app
     julia --project -e 'using Pkg; Pkg.instantiate()'
-    bin/server
+    nohup bin/server > /dev/null 2>&1 < /dev/null &
