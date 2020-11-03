@@ -8,6 +8,10 @@ session/*
 !*.gitkeep
 Manifest.toml
 
+
+# Singularity
+*.sif
+
 # Vagrant
 .vagrant
 Vagrantfile
