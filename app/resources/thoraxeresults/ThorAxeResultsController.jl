@@ -142,6 +142,7 @@ end
 
 function thoraxeresult()
     selected_gene = get(@params, :name, "")
+    @show selected_gene
     html(:thoraxeresults, :thoraxeresult, results = THORAXE_RESULTS, selected=selected_gene, data=String(load_gene(selected_gene).body))
 end
 
