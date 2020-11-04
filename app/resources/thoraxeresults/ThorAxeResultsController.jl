@@ -8,7 +8,7 @@ using DataStructures
 using Glob
 
 const THORAXE_RESULTS_PATH = abspath("@__FILE__/../public/data/thoraxe")
-const RNASEQ_PLOTS_PATH = abspath("@__FILE__/../public/data/rnaseq/plots")
+const RNASEQ_PLOTS_PATH = abspath("@__FILE__/../public/ThorAxe/rnaseq/plots")
 
 struct ThorAxeResult
     path::String
@@ -33,7 +33,7 @@ function get_rnaseq_plots()
     plots = OrderedDict{String, Vector{String}}()
     for path in paths
         folders = splitpath(path)
-        data_pos = findfirst(==("data"), folders)
+        data_pos = findfirst(==("ThorAxe"), folders)
         genename = folders[end-1]
         path_to_data = join(folders[data_pos:end], '/')
         if haskey(plots, genename)
