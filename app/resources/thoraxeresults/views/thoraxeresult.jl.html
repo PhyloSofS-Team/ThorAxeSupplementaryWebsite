@@ -8,7 +8,12 @@
           <input type="text" class="form-control" name="name" id="geneName" list="geneList" aria-describedby="geneHelp" 
             placeholder='$(selected == "" ? "e.g. MAPK8" : selected)'
             value='$(selected == "" ? "" : selected)'>
-          <small id="geneHelp" class="form-text text-muted">Write the name of a human gene from the benchmark set.</small>
+          <small id="geneHelp" class="form-text text-muted">
+            <p>Write the name of a human gene from the publication.</p> 
+            <p>Cannot find your favorite gene in the list? Please contact us at 
+              <a href="mailto: massiv.lcqb@gmail.com">massiv.lcqb@gmail.com</a> 
+              and we will be happy to help!</p>
+          </small>
           <datalist id="geneList">
             <% @foreach(keys(results)) do gene %>
               <option value=$gene></option>
