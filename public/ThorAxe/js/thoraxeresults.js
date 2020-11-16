@@ -165,7 +165,7 @@ jQuery(document).ready(function(){
         cleanMSA();
         jQuery("#msaPanel").show();
 
-        cy.on('click', 'node', function(evt){
+        cy.on('click tap touchstart', 'node', function(evt){
           renderMSA(geneData.value.msas, evt.target.data().label);
         });
         // msa : end
