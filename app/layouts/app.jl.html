@@ -35,21 +35,23 @@
     <link rel="stylesheet" href="/ThorAxe/css/thoraxeresults.css">
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">ThorAxe</h1>
-      <p class="lead">Supplementary Material</p>
-    </div>
-      <%
-        @yield
-      %>
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">
-          Zea, D. J., Laskina, S., Richard, H., & Laine, E. (2020). 
-          <em>Assessing Conservation of Alternative Splicing with Evolutionary Splicing Graphs. </em> 
-          <a href="https://doi.org/10.1101/2020.11.14.382820">BioRxiv.</a>
-        </span>
+    <div class="page">
+      <div class="content">
+        <div class="jumbotron">
+          <h1 class="display-4">ThorAxe</h1>
+          <p class="lead">Supplementary Material</p>
+        </div>
+        <%
+            @yield
+        %>
       </div>
-    </footer>
+      <div class="footer">
+          <span class="footer-text text-muted">
+            Zea, D. J., Laskina, S., Richard, H., & Laine, E. (2020). 
+            <em>Assessing Conservation of Alternative Splicing with Evolutionary Splicing Graphs. </em> 
+            <a href="https://doi.org/10.1101/2020.11.14.382820">BioRxiv.</a>
+          </span>
+      </div>
+    </div>
   </body>
 </html>
