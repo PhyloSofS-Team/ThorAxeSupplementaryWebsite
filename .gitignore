@@ -6,8 +6,6 @@ docs/build
 log/*
 session/*
 !*.gitkeep
-Manifest.toml
-
 
 # Singularity
 *.sif
