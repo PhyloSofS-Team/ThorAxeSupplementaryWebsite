@@ -10,6 +10,24 @@
   text-decoration: none !important;
 }
 
+/* custom error : start */
+
+.error-message{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.error-info{
+  height: 350px;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  color: lightgray;
+  background-color: black;
+}
+
+/* custom error : end */
+
 /* splice graph : start */
 #cy {
     height: 400px;
