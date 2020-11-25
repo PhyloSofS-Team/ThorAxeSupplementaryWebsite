@@ -215,6 +215,30 @@ jQuery(document).ready(function(){
       }, 0);
     });
 
+    // form : start
+
+    window.Parsley.addValidator('datalist', {
+      requirementType: 'string',
+      validateString: function(value, datalist_id) {
+        var datalist_values = Array.from( // convert to Array to use map
+          document.getElementById(datalist_id).options // datalist options
+          ).map(_ => _.value);
+        return datalist_values.includes(value);
+      },
+      messages: {
+        en: 'You should select a gene from the list.'
+      }
+    });
+
+    $('#geneSelectorForm').parsley({
+      errorClass: 'is-invalid text-danger',
+      errorsWrapper: '<span class="form-text text-danger"></span>',
+      errorTemplate: '<span></span>',
+      trigger: 'submit'
+    });
+
+    // form : end
+
   });
 
 

@@ -6,6 +6,10 @@
   width: 200px;
 }
 
+.no_text_decoration{
+  text-decoration: none !important;
+}
+
 /* splice graph : start */
 #cy {
     height: 400px;

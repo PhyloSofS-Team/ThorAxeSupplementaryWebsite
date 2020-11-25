@@ -7,7 +7,7 @@
           <label for="geneName">Gene Name:</label>
           <input type="text" class="form-control" name="name" id="geneName" list="geneList" aria-describedby="geneHelp" 
             placeholder='$(selected == "" ? "e.g. MAPK8" : selected)'
-            value='$(selected == "" ? "" : selected)'>
+            value='$(selected == "" ? "" : selected)' data-parsley-datalist="geneList">
           <small id="geneHelp" class="form-text text-muted">
             <p>Write the name of a human gene from the publication.</p> 
             <p>Cannot find your favorite gene in the list? Please contact us at 
