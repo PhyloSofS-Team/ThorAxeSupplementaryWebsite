@@ -238,7 +238,5 @@ jQuery(document).ready(function(){
     });
 
     // form : end
-
+    
   });
-
-
