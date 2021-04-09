@@ -44,7 +44,7 @@
       <!-- splice graph : end -->
     </div>
   </div>
-  <!-- msa : end -->
+  <!-- msa : start -->
   <div class="row" id="msaPanel">
     <div class="col">
       <div class="card card-primary" >
@@ -61,7 +61,22 @@
   <!-- msa : end -->
   <div class="row">
     <div class="col">
-      <!-- s_exon_table : end -->
+      <!-- gene_structure : start -->
+      <div class="card card-primary" id="geneStructurePanel">
+        <div class="card-header">Genomic coordinates</div>
+        <div class="card-body">
+          <div id="geneStructureContainer"></div>
+        </div>
+        <div id="geneStructureFooter" class="card-footer text-muted">
+          <p>Click on a gene's s-exons to see its data here.</p>
+        </div>
+      </div>
+      <!-- gene_structure : end -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!-- s_exon_table : start -->
       <div class="card card-primary" id="sExonPanel">
         <div class="card-header">S-exons</div>
         <div class="card-body">
@@ -74,7 +89,7 @@
   </div>
   <div class="row">
     <div class="col">
-      <!-- ases_table : end -->
+      <!-- ases_table : start -->
       <div class="card card-primary" id="asesPanel">
         <div class="card-header">Alternative splicing events</div>
         <div class="card-body">
@@ -106,7 +121,7 @@
 <% if selected != "" %>
 <script>
   jQuery(document).ready(function(){
-    geneData.value = $(data);
+    geneData.value = $(input_data);
   });
 </script>
 <% end %>

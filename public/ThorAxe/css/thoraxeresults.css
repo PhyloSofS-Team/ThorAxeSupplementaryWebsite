@@ -77,3 +77,12 @@ tbody tr.alt-row td {
   text-align: center;
 }
 /* sticky footer : end */
+
+/* gene_structure : start */
+
+rect.selectedSExon {
+  stroke-width:3;
+  stroke:rgb(0,0,0);
+}
+
+/* gene_structure : end */

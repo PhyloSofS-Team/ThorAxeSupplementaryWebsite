@@ -4,6 +4,8 @@ import Genie.Router: @params
 import Genie.Renderer.Json: json
 using Genie.Renderer.Html
 
+using CSV
+using DataFrames
 using DataStructures
 using Glob
 
@@ -127,12 +129,26 @@ end
 function load_gene(selected_gene)
     json(
         if selected_gene != ""
+            s_exon_table = joinpath(THORAXE_RESULTS[selected_gene].path, "s_exon_table.csv")
+            columns = [
+                :GeneID,
+                :Species,
+                :S_exonID,
+                :Strand,
+                :S_exon_CodingStart,
+                :S_exon_CodingEnd,
+                :S_exon_StartPhase,
+                :S_exon_EndPhase,
+                :S_exon_Sequence,
+                :S_exon_Genomic_Sequence,
+                ]
             Dict("selected_gene" => selected_gene,
                 "cytoscape_elements" => get_cytoscape_elements(selected_gene),
                 "rnaseq_plots" => get(RNASEQ_PLOTS, selected_gene, String[]),
-                "s_exon_table" => read(joinpath(THORAXE_RESULTS[selected_gene].path, "s_exon_table.csv"), String),
+                "s_exon_table" => read(s_exon_table, String),
                 "ases_table" => read(joinpath(THORAXE_RESULTS[selected_gene].path, "ases_table.csv"), String),
-                "msas" => read_msas(selected_gene)
+                "msas" => read_msas(selected_gene),
+                "s_exon_data" => collect(eachrow(DataFrame(CSV.File(s_exon_table))[:, columns]))
                 )
         else
             Dict("selected_gene" => selected_gene)
@@ -143,7 +159,7 @@ end
 function thoraxeresult()
     selected_gene = get(@params, :name, "")
     @show selected_gene
-    html(:thoraxeresults, :thoraxeresult, results = THORAXE_RESULTS, selected=selected_gene, data=String(load_gene(selected_gene).body))
+    html(:thoraxeresults, :thoraxeresult, results = THORAXE_RESULTS, selected=selected_gene, input_data=String(load_gene(selected_gene).body))
 end
 
 end
