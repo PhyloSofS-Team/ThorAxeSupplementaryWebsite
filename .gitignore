@@ -1,3 +1,6 @@
+.julia
+nohup.out
+
 # App
 build/*
 cache/*
