@@ -37,16 +37,10 @@ cd ThorAxeSupplementaryWebsite
 sudo singularity build thoraxe-supplmat.sif Singularity
 ```
 
-Then you can simply run it:
+Then you can create an instance to run the server:
 
 ```bash
-singularity run thoraxe-supplmat.sif
-```
-
-Or to create an instance to run the server:
-
-```bash
-singularity instance start thoraxe-supplmat.sif thoraxe-supplmat
+singularity instance start --bind .:/ThorAxeSuppl thoraxe-supplmat.sif thoraxe-supplmat
 
 singularity run instance://thoraxe-supplmat
 ```
