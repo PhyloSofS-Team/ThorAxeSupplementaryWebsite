@@ -252,6 +252,10 @@ jQuery(document).ready(function(){
           boxHeight: 20,
         }
 
+        const cleanSExonFooter = function(){
+          jQuery("#geneStructureFooter").html("<p>Click on a gene's s-exons to see its data here.</p>")
+        };
+
         const clickSExonSwatch = function(sExon){
           d3.selectAll(".selectedSExon").classed("selectedSExon", false);
           var selectedClass = `.S-exon-${sExon}`;
@@ -261,6 +265,7 @@ jQuery(document).ready(function(){
               return +d3.select(this).style("opacity") == geneSettings.unselectedOpacity
             }).empty();
           if ((currentOpacity == "1") && previousSelection){
+            cleanSExonFooter();
             geneStructureSVG.selectAll("rect").style("opacity", 1);
             geneStructureSVG.selectAll(".swatch").style("opacity", 1);
           } else {
@@ -349,21 +354,17 @@ jQuery(document).ready(function(){
             .entries(val.s_exon_data);
       
           const colorScale = d3.scaleOrdinal().domain(sExonIDs).range(d3.schemeCategory10);
-      
-          const cleanSExonFooter = function(){
-            jQuery("#geneStructureFooter").html("<p>Click on a gene's s-exons to see its data here.</p>")
-          };
 
           const showSExonFooter = function(sExonRow){
             footer_text = `<h5>S-exon ${sExonRow.S_exonID} in the gene ${sExonRow.GeneID} (${sExonRow.Species})</h5>`;
-            footer_text += "<dl>";
-            footer_text += `<dt>Strand</dt><dd>${sExonRow.Strand}</dd>`;
-            footer_text += `<dt>Coding start</dt><dd>${sExonRow.S_exon_CodingStart}</dd>`;
-            footer_text += `<dt>Coding end</dt><dd>${sExonRow.S_exon_CodingEnd}</dd>`;
-            footer_text += `<dt>Start phase</dt><dd>${sExonRow.S_exon_StartPhase}</dd>`;
-            footer_text += `<dt>End phase</dt><dd>${sExonRow.S_exon_EndPhase}</dd>`;
-            footer_text += `<dt>Sequence</dt><dd>${sExonRow.S_exon_Sequence}</dd>`; 
-            footer_text += `<dt>Genomic sequence</dt><dd>${sExonRow.S_exon_Genomic_Sequence}</dd>`;
+            footer_text += '<dl class="row">';
+            footer_text += `<dt class="col-sm-2">Strand</dt><dd class="col-sm-10">${sExonRow.Strand}</dd>`;
+            footer_text += `<dt class="col-sm-2">Coding start</dt><dd class="col-sm-10">${sExonRow.S_exon_CodingStart}</dd>`;
+            footer_text += `<dt class="col-sm-2">Coding end</dt><dd class="col-sm-10">${sExonRow.S_exon_CodingEnd}</dd>`;
+            footer_text += `<dt class="col-sm-2">Start phase</dt><dd class="col-sm-10">${sExonRow.S_exon_StartPhase}</dd>`;
+            footer_text += `<dt class="col-sm-2">End phase</dt><dd class="col-sm-10">${sExonRow.S_exon_EndPhase}</dd>`;
+            footer_text += `<dt class="col-sm-2">Sequence</dt><dd class="col-sm-10">${sExonRow.S_exon_Sequence}</dd>`; 
+            footer_text += `<dt class="col-sm-2">Genomic sequence</dt><dd class="col-sm-10">${sExonRow.S_exon_Genomic_Sequence}</dd>`;
             footer_text += "</dl>";
             jQuery("#geneStructureFooter").html(footer_text);
           };
